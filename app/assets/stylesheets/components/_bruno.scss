@@ -25,6 +25,7 @@
 }
 .cdf-home-sub  { max-width: 540px; color: rgba(255, 255, 255, .82); }
 .cdf-home-hint { color: rgba(255, 255, 255, .6); font-size: 14px; }
+.cdf-arrow-oblique { display: inline-block; transform: rotate(-45deg); }
 
 /* ---- Avatar Bruno (petit = bulle, moyen/grand = header chat) ---- */
 .bruno-avatar { border-radius: 50%; background: radial-gradient(120% 120% at 30% 20%, #FF6A33 0%, #FF3D00 55%, #E03200 100%); color: #fff; display: inline-flex; align-items: center; justify-content: center; position: relative; flex-shrink: 0; box-shadow: 0 4px 14px rgba(255,61,0,.34); }
