@@ -2,10 +2,10 @@
    Coup de Feu Home réduite + bouton d'appel Bruno
    ============================================================ */
 
-/* ---- Logo de la navbar ---- */
+
 .navbar .navbar-brand img { height: 38px; width: auto; }
 
-/* ---- Home réduit : hero dégradé sombre ---- */
+
 .cdf-home-hero {
   min-height: calc(100vh - 72px);
   padding: 64px 16px;
@@ -47,7 +47,7 @@
   svg { width: 30px; height: 30px; }
 }
 
-/* ---- Champs de formulaire visibles sur fond crème ---- */
+
 .form-control,
 .form-select {
   background-color: #fff;
@@ -87,7 +87,7 @@ $bruno-border:   rgba(255, 61, 0, .22);
     0 0 40px rgba(255, 61, 0, .12);
 }
 
-/* Bascule pilotée par bruno_controller.js (open/close) */
+
 .bruno-chat.is-open .bruno-panel { display: flex; }
 .bruno-chat.is-open .bruno-launcher { display: none; }
 
